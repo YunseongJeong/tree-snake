@@ -9,6 +9,8 @@ public class Head : Node
 
     void Start()
     {
+        depth = 0;
+        nid = 0;
         base.Start();
     }
 
